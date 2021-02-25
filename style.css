@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.testimonial {
+    max-width: 1000px;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 4fr;
+    grid-gap: 20px;
+}
+
+.daniel_div {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+    grid-column: 1/ span 2;
+    background-image: url('/images/bg-pattern-quotation.svg') ;
+}
+
+.card_div {
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.kira_div {
+    grid-column-start: 4;
+    grid-row: 1 / span 2;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.patrick_div {
+    grid-column: 2/ span 2;
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+.jonathan_div {
+    background-color: hsl(217, 19%, 35%);
+    color:hsl(0, 0%, 100%);
+}
+.jeanette_div {
+    background-color:hsl(0, 0%, 100%);
+}
+.heading{
+    display:flex;
+    padding-bottom: 10px;
+}
+
+.heading div{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.card_quote {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card_paragraph {
+    font-size: 12px;
+    opacity: 70%;
+    line-height: 1.5;
+}
+.card_name {
+    font-size: 13px;
+}
+.Verified {
+    opacity: 50%;
+    font-size: 12px;
+}
+.attribution {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
